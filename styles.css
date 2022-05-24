@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+* {
+    font-family: 'Kanit', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(-45deg, #5e0878, #085078, #4ca59b, #1fa194); 
+}
+
+h1 {
+    border: 2px solid #000000;
+}
+
+p {
+    border: 2px solid #000000;
+}
+
+button {
+    height: 45px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid #000000;
+    background: linear-gradient(-45deg, #5e0878, #085078, #4ca59b, #1fa194);
+    color: #000000;
+    font-size: 20pt;
+    font-weight: 800;
+    text-align: center;
+}
+
+#counter {
+    display: flex;
+}
+
+#currentNumber {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    font-size: 16pt;
+}
+
